@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+h2{
+    text-align: center;
+    font-size: xx-large;
+    color: blueviolet;
+}
+nav{
+    margin-bottom: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 1.5vw;
+}
+nav li{
+    color: white;
+    list-style: none;
+}
+.game{
+    padding-left: 20%;
+}
+.game h1{
+    padding-bottom: 20%;
+    text-decoration: underline;
+}
+.game h2{
+    padding-bottom: 5%;
+}
+.btn{
+    padding: 5%;
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.con{
+    display: grid;
+    grid-template-columns: repeat(3,12vw);
+    grid-template-rows: repeat(3,12vw);
+}
+.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    border:2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: black;
+}
+.box:hover{
+    background-color:rgb(188, 188, 211);
+}
+.bl{
+    border-left: 0;
+}
+.br{
+    border-right: 0;
+}
+.bt{
+    border-top: 0;
+}
+.bb{
+    border-bottom: 0;
+}
+#img{
+    border: none;
+}
+@media screen and (max-width:620px){
+ .sec{
+    display: flex;
+    flex-direction: column;
+ }   
+ nav{
+    margin-bottom: 20%;
+ }
+ .con{
+padding-bottom: 20%;
+ }
+}
